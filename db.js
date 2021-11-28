@@ -1,5 +1,5 @@
 const sqlite3 = require("sqlite3").verbose();
-const db_name = "./data/todoList.db";
+const db_name = "todoList.db";
 const db = new sqlite3.Database(db_name, (err) => {
     if (err) {
         return console.error(err.message);
