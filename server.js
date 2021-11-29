@@ -7,10 +7,6 @@ app.use(express.json());
 const port = process.env.PORT || 3000;
 const db = require("./db");
 
-app.get("/", (req, res) => {
-    res.send("Welcome to To Do List Manager");
-});
-
 app.get("/tasks", (req, res) => {
     const query = "SELECT * FROM ToDoList ORDER BY Task_ID";
     db.all(query, [], (err, rows) => {
