@@ -27,7 +27,7 @@ app.post("/tasks", (req, res) => {
         if (err) {
             res.status(400).send("Error adding task");
         }
-        res.redirect("/tasks");
+        res.send("Successfully added task");
     });
 });
 
