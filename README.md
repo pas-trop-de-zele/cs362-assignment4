@@ -8,6 +8,7 @@
 - ```warden-cli``` is where the interface resides
 
 ### Installation guide
+- Clone the repo ```git clone https://github.com/pas-trop-de-zele/warden-cli-taskmanager.git```
 - Make sure you have [Node](https://nodejs.org/en/) install 
 - ```npm install``` in ```warden-cli-taskmanager```(main folder) 
 - ```npm install -g``` in ```warden-cli``` folder
