@@ -1,4 +1,5 @@
 # Warden-CLI-TaskManager
+![Demo](animated_demo.gif)
 
 ### Tech stack
 - Express JS
