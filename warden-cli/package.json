@@ -1,0 +1,19 @@
+{
+    "name": "task-cli",
+    "version": "1.0.0",
+    "description": "",
+    "main": "bin/index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "David Neal (https://reverentgeek.com)",
+    "license": "MIT",
+    "bin": {
+        "warden": "./bin/task.js"
+    },
+    "dependencies": {
+        "axios": "^0.24.0",
+        "yargs": "^17.2.1"
+    }
+}
