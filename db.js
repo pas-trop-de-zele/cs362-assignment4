@@ -7,6 +7,9 @@ const db = new sqlite3.Database(db_name, (err) => {
     console.log(`Successful connection to the database ${db_name}`);
 });
 
+// Use to delete all tasks
+// db.run(`DROP TABLE ToDoList`);
+
 const sql_seed = `CREATE TABLE IF NOT EXISTS ToDoList (
     Task_ID INTEGER PRIMARY KEY AUTOINCREMENT,
     TaskName VARCHAR(100) NOT NULL
