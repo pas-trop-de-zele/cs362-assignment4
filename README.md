@@ -11,6 +11,7 @@
 - Clone the repo ```git clone https://github.com/pas-trop-de-zele/warden-cli-taskmanager.git```
 - Make sure you have [Node](https://nodejs.org/en/) install 
 - ```npm install``` in ```warden-cli-taskmanager```(main folder) 
+- ```npm install``` in ```warden-cli``` folder
 - ```npm install -g``` in ```warden-cli``` folder
 - Start the server by ```npm start``` in ```warden-cli-taskmanager```(main folder)
 - Now you can open up a cmd/shell and follow guide below
